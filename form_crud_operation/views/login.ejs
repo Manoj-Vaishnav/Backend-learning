@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            width:30vw;
+            height: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        body{
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include('navbar'); %>
+        <div style="padding:10px;font-family: sans-serif;font-weight: bold;margin-top: 2%;">
+            <form action="/login" method="POST" class="form">
+                <div><label for="email">E-mail: </label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div><label for="password">Password: </label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div style="display: flex;justify-content: center;">
+                    <button type="submit" style="padding:10px">Log-in</button>
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .form {
+            width: 50vw;
+            height: 25vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .parent{
+            width:100%;
+        }
+        .child{
+            display: inline-block;
+            width:30%;
+        }
+        body{
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include('navbar'); %>
+        <div style="padding:10px;font-family: sans-serif;font-weight: bold;margin-top: 2%;">
+            <form action="/registeration" method="POST" class="form">
+                <div  class="parent">
+                    <span class="child">
+                        <label for="firstname">Firstname: </label>
+                        <input type="text" name="fname" id="firstname" required>
+                    </span>
+                    <span class="child">
+                        <label for="lastname">Lastname: </label>
+                        <input type="text" name="lname" id="lastname" required>
+                    </span>
+                </div>
+                <div class="parent">
+                    <span class="child"><label for="email">email: </label>
+                        <input type="text" name="email" id="email" required></span>
+                    <span class="child"> <input type="radio" name="gender" id="male" value="Male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="Female" required>
+                        <label for="female">Female</label></span>
+                </div>
+                <div class="parent">
+                    <span class="child">
+                        <label for="phoneno">Phone-no: </label>
+                        <input type="number" name="phoneno" id="phoneno" required>
+                    </span>
+                    <span class="child">
+                        <label for="age">Age: </label>
+                        <input type="number" name="age" id="age" required>
+                    </span>
+                </div>
+                <div class="parent">
+                    <span class="child">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </span>
+                    <span class="child">
+                        <label for="cpassword">C-Password: </label>
+                        <input type="password" name="cpassword" id="cpassword" required>
+                    </span>
+                </div>
+                <div class="parent">
+                    <button type="submit" style="position: relative;left:50%;padding:10px;font-weight: bold;">Register</button>
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>
