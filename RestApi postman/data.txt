@@ -1,0 +1,50 @@
+{
+"_id": "667f970a6c0a0fb7a920da59",
+"event": "100m",
+"ranking": 1,
+"name": "Christian coleman",
+"dob": "1996-03-05T18:30:00.000Z",
+"country": "RSA",
+"score": 1392,
+"__v": 0
+},
+{
+"_id": "667f671cb68ccb902d2edbb7",
+"event": "100m",
+"ranking": 2,
+"name": "Justin Gatlin",
+"dob": "1982-02-10T00:00:00.000Z",
+"country": "USA",
+"score": 1428,
+"__v": 0
+},
+{
+"_id": "667f68a012eec99552ecfbf4",
+"event": "100m",
+"ranking": 3,
+"name": "Ankani Simbine",
+"dob": "1993-09-20T18:30:00.000Z",
+"country": "RSA",
+"score": 1392,
+"__v": 0
+},
+{
+"_id": "667f9819773d4de607544eb3",
+"event": "100m",
+"ranking": 4,
+"name": "Zharnel hughes",
+"dob": "1995-07-18T18:30:00.000Z",
+"country": "GBR",
+"score": 1379,
+"__v": 0
+},
+{
+"_id": "667f71c28b2640bac66977fb",
+"event": "100m",
+"ranking": 5,
+"name": "Yohan Blake",
+"dob": "1989-12-24T18:30:00.000Z",
+"country": "JAM",
+"score": 1377,
+"__v": 0
+}
